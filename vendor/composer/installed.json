@@ -1,0 +1,48 @@
+[
+    {
+        "name": "granam/czech-vocative",
+        "version": "2.0.0",
+        "version_normalized": "2.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/granam/czech-vocative.git",
+            "reference": "92909aba9c1ff879690f610807278e87f7a68c84"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/granam/czech-vocative/zipball/92909aba9c1ff879690f610807278e87f7a68c84",
+            "reference": "92909aba9c1ff879690f610807278e87f7a68c84",
+            "shasum": ""
+        },
+        "require": {
+            "ext-mbstring": "*",
+            "php": ">=7.0"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "~6.0"
+        },
+        "time": "2017-11-24T08:00:05+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Granam\\": "Granam/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Petr Joachim",
+                "email": "petr@joachim.cz"
+            },
+            {
+                "name": "Jaroslav Týc",
+                "email": "mail@jaroslavtyc.com"
+            }
+        ],
+        "description": "Inflect czech names and surnames."
+    }
+]

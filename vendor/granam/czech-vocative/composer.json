@@ -1,0 +1,28 @@
+{
+  "name": "granam/czech-vocative",
+  "description": "Inflect czech names and surnames.",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Petr Joachim",
+      "email": "petr@joachim.cz"
+    },
+    {
+      "name": "Jaroslav Týc",
+      "email": "mail@jaroslavtyc.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Granam\\": "Granam/"
+    }
+  },
+  "require": {
+    "php": ">=7.0",
+    "ext-mbstring": "*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~6.0"
+  }
+}
